@@ -1,0 +1,97 @@
+body{
+    font: 14px;
+}
+
+nav div{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#sanfona {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sanfona h2 {
+    width: 480px;
+    background: red;
+    padding: 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+#sanfona .caixa .hide {
+    display: none;
+}
+
+.menu-fixo {
+    position: fixed;
+    top: 50px;
+    z-index: 999;
+    width: 100%;
+}
+
+#slide {
+    width: 750px;
+    overflow: hidden;
+    height: 600px;
+    margin: 50px auto;
+    box-shadow: 0 0 8px #000;
+    position: relative;
+}
+
+#slide img {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    left: 0;
+}
+
+#slide p {
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.ex1, .ex2 {
+    width: 460px;
+    padding: 20px;
+    background: #1e90ff;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+label {
+    display: flex;
+    margin: 10px 0;
+    padding: 10px;
+    background: #f8f8ff;
+}
+
+p, input, textarea {
+    width: 480px;
+    padding: 8px;
+    background: #000;
+    margin: 0 auto;
+    margin-top: 8px;
+    text-align: center;
+    color: #fff;
+    border: 5px solid #ccc;
+}
+
+button {
+    width: 465px;
+    margin: 0 auto;
+}
+
+.ev8 {
+    padding: 100px;
+}
